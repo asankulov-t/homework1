@@ -1,3 +1,28 @@
 .someClass {
-
+    margin-top: 20px;
+    background-color: slateblue;
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
 }
+.buttons{
+    margin-top: 10px;
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    background-color: dimgray;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.buttons.active{
+    color: #61dafb;
+    background-color: #282c34;
+ }

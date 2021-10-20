@@ -1,0 +1,41 @@
+.global{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.affair{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.low{
+    color: orange;
+}
+.high{
+    color: red;
+}
+.middle{
+    color: cornflowerblue;
+}
+.level{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #61dafb;
+    padding: 2px;
+    width: 50px;
+    text-align: center;
+}
+.global button{
+    width: 40px;
+    background-color: slateblue;
+    border: none;
+    color: #282c34;
+    cursor: pointer;
+}
+.global button:hover{
+    color: white;
+    background-color: #282c34;
+}
