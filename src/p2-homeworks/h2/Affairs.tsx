@@ -43,8 +43,8 @@ function Affairs(props: AffairsPropsType) {
     let st3=fs.buttons+' '+(cls==='middle'?fs.active:'')
     let st4=fs.buttons+' '+(cls==='low'?fs.active:'')
     return (
-        <div>
-            <div className={fs.someClass}>
+        <div className={fs.someClass}>
+            <div className={fs.tasks}>
                 {mappedAffairs}
             </div>
 

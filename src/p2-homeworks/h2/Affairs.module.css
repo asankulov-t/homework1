@@ -2,13 +2,17 @@
     margin-top: 20px;
     background-color: slateblue;
     width: 250px;
-    padding: 15px;
+    padding: 5px;
     border-radius: 8px;
     color: white;
 }
+.tasks{
+    margin-bottom: 8px;
+}
 .buttons{
-    margin-top: 10px;
-    width: 280px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -19,7 +23,8 @@
     padding: 3px 10px;
     border-radius: 7px;
     cursor: pointer;
-    margin: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .buttons.active{
