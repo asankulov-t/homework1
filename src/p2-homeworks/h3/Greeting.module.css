@@ -1,0 +1,22 @@
+.someClass {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.someClass button {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.red {
+    color: red;
+}

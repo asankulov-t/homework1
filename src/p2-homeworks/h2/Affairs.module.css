@@ -1,0 +1,33 @@
+.someClass {
+    margin-top: 20px;
+    background-color: slateblue;
+    width: 250px;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+}
+.tasks{
+    margin-bottom: 8px;
+}
+.buttons{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    background-color: dimgray;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.buttons.active{
+    color: #61dafb;
+    background-color: #282c34;
+ }
