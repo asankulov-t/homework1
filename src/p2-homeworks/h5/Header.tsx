@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import h from './Header.module.css'
+import {PATH} from "./Routers";
 
 function Header() {
     // @ts-ignore
@@ -15,10 +16,10 @@ function Header() {
         <div>
             <nav className={h.nav}>
                 <NavLink className={(navData) => (navData.isActive ? h.active : '')}
-                         to={'/pre-junior'}>Pre-Junior</NavLink>
-                <NavLink className={(navData) => (navData.isActive ? h.active : '')} to={'/junior'}>Junior</NavLink>
+                         to={PATH.PRE_JUNIOR}>Pre-Junior</NavLink>
+                <NavLink className={(navData) => (navData.isActive ? h.active : '')} to={PATH.JUNIOR}>Junior</NavLink>
                 <NavLink className={(navData) => (navData.isActive ? h.active : '')}
-                         to={'/junior-plus'}>Junior+</NavLink>
+                         to={PATH.JUNIOR_PLUS}>Junior+</NavLink>
             </nav>
         </div>
     )

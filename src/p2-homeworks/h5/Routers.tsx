@@ -7,6 +7,8 @@ import Junior from "./pages/Junior";
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
+    JUNIOR: "/junior",
+    JUNIOR_PLUS: "/junior_plus",
     // add paths
 }
 
@@ -16,7 +18,7 @@ function Routers() {
 
             <Routes>
                 <Route path={'/pre-junior'} element={<PreJunior/>}/>
-                <Route path={'/junior'} element={<Junior/>}/>
+                <Route path={PATH.JUNIOR} element={<Junior/>}/>
                 <Route path={'/'} element={<Navigate to={PATH.PRE_JUNIOR}/>}/>
                 <Route path={'*'} element={<Error404/>}/>
             </Routes>
