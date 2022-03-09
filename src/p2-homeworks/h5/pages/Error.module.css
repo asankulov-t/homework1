@@ -1,0 +1,17 @@
+.error{
+    align-items: center;
+    text-align: center;
+}
+.codeError{
+    color: #ea2929;
+    font-weight: bold;
+    font-size: 90px;
+}
+.notFound{
+    font-size: 30px;
+    color: #61dafb;
+}
+.simb{
+    font-size: 40px;
+    color: cadetblue;
+}
