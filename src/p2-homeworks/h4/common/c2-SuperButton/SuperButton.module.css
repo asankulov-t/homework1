@@ -1,7 +1,36 @@
 .default {
-
+    margin: 5px;
+    background-color: #4b4b9e;
+    color: white;
+    outline: none;
+    border: none;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 3px 4px;
+    cursor: pointer;
+}
+.red {
+    margin: 5px;
+    background-color: #af1515;
+    color: white;
+    outline: none;
+    border: none;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 3px 4px;
+    cursor: pointer;
 }
 
-.red {
-    background: red;
+.dis {
+    margin: 5px;
+    background-color: rgba(75, 75, 158, 0.26);
+    color: white;
+    outline: none;
+    border: none;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 3px 4px;
 }
